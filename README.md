@@ -35,9 +35,6 @@ A fully responsive fitness web application built using **React**, **TypeScript**
 
 ## 📸 Screenshots
 
-> _Add screenshots or GIFs here to showcase the interface._  
-> You can include images using:  
-> `![Screenshot](./public/your-image.png)`
 ### 🖼 Home Page
 ![Home Page](./public/Screenshot%202025-05-19%20090433.png)
 ---
