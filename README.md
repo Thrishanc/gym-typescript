@@ -1,50 +1,50 @@
-# React + TypeScript + Vite
+# 🏋️ Responsive Fitness Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive fitness web application built using **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. The app provides a smooth, modern user experience with dynamic workout sections, animated transitions, and a mobile-first design approach.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo
+🌐 [Click here to view the live site](https://15b49710.gym-typescript-4ns.pages.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🔄 **Responsive Design**: Optimized for mobile, tablet, and desktop screens.
+- ⚛️ **React + TypeScript**: Strongly typed codebase for better development experience.
+- 🎨 **Tailwind CSS**: Utility-first CSS framework for clean and rapid styling.
+- 📄 **Form Submit Integration**: Handles contact form submissions without a backend.
+- 🧭 **Smooth Scrolling Navigation**: Built using `react-anchor-link-smooth-scroll`.
+- 💬 **Hero Icons + Framer Motion**: Modern icons and fluid animations to enhance UX.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+| Technology       | Purpose                             |
+|------------------|-------------------------------------|
+| React            | UI Library                          |
+| TypeScript       | Type-Safe JavaScript                |
+| Vite             | Fast Build Tool                     |
+| Tailwind CSS     | Styling                             |
+| Form Submit      | Form Submission Handling            |
+| Framer Motion    | Animations                          |
+| Hero Icons       | Icon Library                        |
+| Cloudflare Pages | Deployment                          |
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📸 Screenshots
+
+> _Add screenshots or GIFs here to showcase the interface._  
+> You can include images using:  
+> `![Screenshot](./public/your-image.png)`
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Thrishanc/gym-typescript.git
+cd gym-typescript
